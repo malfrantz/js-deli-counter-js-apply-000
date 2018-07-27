@@ -23,7 +23,7 @@ function takeANumber(katzDeli, name){
  
 var katzDeli = [];
 
-function line(array) {
+function currentLine(array) {
   if(array.length < 1) {
     return "The line is currently empty." ;
   } else {
