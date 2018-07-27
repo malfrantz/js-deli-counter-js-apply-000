@@ -32,7 +32,7 @@ function currentLine(array) {
   array.forEach(function(name, index) {
     myArr.push((index + 1).toString() + ". " + name);
     });
-   var response = "The line is currently: " + queue.join(", ")
+   var response = "The line is currently: " + myArr.join(", ")
    return response;
   }
  }
